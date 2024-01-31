@@ -10,7 +10,7 @@ on:
 
 env:
   BASE_BRANCH: "main"       # source code branch for pipeline
-  TAG_ADDR: "armyost/baserunner:1.0"
+  TAG_ADDR: "armyost/baserunner:1.1"
 
 permissions:
   contents: read
