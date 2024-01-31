@@ -38,7 +38,7 @@ jobs:
     - name: Build and Push Docker image
       uses: docker/build-push-action@v4
       with:
-        context: .
+        context: ./docker/runner/
         push: true
         tags: ${{ env.TAG_ADDR }}
         cache-to: type=gha, mode=max
